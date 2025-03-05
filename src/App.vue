@@ -8,8 +8,8 @@
 import {reactive} from "vue";
 import BasicLayout from "@/layouts/BasicLayout.vue";
 import {useLoginUserStore} from "@/stores/useLoginUserStore";
-const loginUserStore = useLoginUserStore()
-loginUserStore.fetchLoginUser()
+// const loginUserStore = useLoginUserStore()
+// loginUserStore.fetchLoginUser()
 
 </script>
 
